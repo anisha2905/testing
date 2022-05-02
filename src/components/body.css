@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500;1,700&display=swap');
+.sliderimg{
+   
+   
+  width: 500;
+  margin: 'auto';
+  height: 1050;
+  }
+  .sliderimg1{
+    padding-left: 40px;
+    margin-left: 50px;
+    width: 950%;
+    height: 5000px;
+   
+  }
+.App {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  .Form {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+.container {
+  
+  display: grid;
+  grid-template-columns: 10% 80% 10%; 
+}
+.maindiv{
+  width: 70%;
+  padding: 5px;
+  
+}
+.sidebar {
+  width: 25%;
+ 
+}
+body {
+
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  padding: 0 45px;
+  background-color: #041301;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.spacing {
+    justify-content: space-between;
+    padding: 0 15px;
+
+    
+    color: #fff;
+  
+}
+.nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a:hover {
+  color: #e5f2f2;
+}
+
+.nav li {
+  padding: 10px;
+}
+
+.hero {
+  background-color: #f9fbfc;
+  padding: 60px 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-inner {
+  width: 760px;
+}
+
+.hero h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.18rem;
+  line-height: 1.6;
+}
+
+.button {
+  color: #fff;
+  text-decoration: none;
+  background-color: #5a8b4a;
+  padding: 12px 20px;
+  font-size: 1.18rem;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+
+.aboutus {
+  display: flex;
+  gap: 45px;
+}
+
+.aboutus_img {
+  flex: 1;
+}
+
+.aboutus_content {
+  flex: 1;
+}
+
+.aboutus_img img {
+  width: 100%;
+}
+
+.aboutus h1 {
+  color: #1e5309;
+  font-size: 3.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.aboutus h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.aboutus_content p {
+  margin: 0;
+  padding: 15px 0;
+  line-height: 1.6;
+  color: #333;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 980px) {
+  .aboutus {
+    flex-direction: column;
+  }
+}
+
+
+.blog {
+  background-color: #fcfbfd;
+}
+
+.blog-inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
+}
+
+.blog-inner h3 {
+  color: #098000;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.blog-inner p {
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  color: rgb(3, 78, 5);
+  font-size: 12px;
+}
