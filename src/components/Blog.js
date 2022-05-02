@@ -6,7 +6,7 @@ const Blog = () => {
         <div className='container blog-inner'>
             <div className='blog-item'>
                 <h3>Blog #1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit fuga, quod, eligendi iusto tenetur culpa veniam animi minus odit cupiditate, ducimus accusamus quaerat numquam odio corporis earum cum harum dolorem.</p>
+                <p>Lorem ipsum dolor shgyfhit amet, consectetur adipisicing elit. Impedit fuga, quod, eligendi iusto tenetur culpa veniam animi minus odit cupiditate, ducimus accusamus quaerat numquam odio corporis earum cum harum dolorem.</p>
             </div>
 
             <div className='blog-item'>
